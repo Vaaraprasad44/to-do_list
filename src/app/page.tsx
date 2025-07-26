@@ -1,6 +1,5 @@
 'use client';
 
-// src/app/page.tsx
 import { useState } from 'react';
 import { Task } from '../../types/Todo';
 import AddTaskForm from '../../components/AddTaskForm';

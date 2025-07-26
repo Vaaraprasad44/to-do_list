@@ -1,4 +1,4 @@
-// components/TodoItem.tsx
+
 import { TodoItemProps } from '../types/Todo';
 
 export default function TodoItem({ task, onComplete, onRemove }: TodoItemProps) {

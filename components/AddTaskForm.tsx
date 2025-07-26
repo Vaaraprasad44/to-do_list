@@ -1,10 +1,9 @@
-// components/AddTaskForm.tsx
 'use client';
 
 import { useState } from 'react';
 import { AddtaskformProps } from '../types/Todo';
 import { Button } from '@/components/ui/button';
-import { ChevronRightIcon } from 'lucide-react'; // Optional icon
+import { ChevronRightIcon } from 'lucide-react'; 
 
 export default function Addtaskform({ onAddTask }: AddtaskformProps) {
   const [inputText, setInputText] = useState('');
@@ -35,7 +34,6 @@ export default function Addtaskform({ onAddTask }: AddtaskformProps) {
           className="px-6 py-3"
         >
           Add Task
-          {/* Optional icon */}
           <ChevronRightIcon className="ml-2 h-4 w-4" />
         </Button>
       </div>
